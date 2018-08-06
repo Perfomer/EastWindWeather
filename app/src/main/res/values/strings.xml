@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name" translatable="false">EastwindWeather</string>
+
+    <string name="temperature_value" translatable="false">%d %s</string>
+
+    <string name="temperature_unit_celsius_short" translatable="false">°C</string>
+    <string name="temperature_unit_fahrenheit_short" translatable="false">°F</string>
+    <string name="temperature_unit_kelvin_short" translatable="false">K</string>
+
+    <string-array name="temperature_units">
+        <item>@string/temperature_unit_celsius_short</item>
+        <item>@string/temperature_unit_fahrenheit_short</item>
+        <item>@string/temperature_unit_kelvin_short</item>
+    </string-array>
+
+    <string name="temperature_unit_celsius">Цельсий</string>
+    <string name="temperature_unit_fahrenheit">Фаренгейт</string>
+    <string name="temperature_unit_kelvin">Кельвин</string>
+
+    <string name="season_winter">Зима</string>
+    <string name="season_spring">Весна</string>
+    <string name="season_summer">Лето</string>
+    <string name="season_autumn">Осень</string>
+
+    <string name="month_january">Январь</string>
+    <string name="month_february">Февраль</string>
+    <string name="month_march">Март</string>
+    <string name="month_april">Апрель</string>
+    <string name="month_may">Май</string>
+    <string name="month_june">Июнь</string>
+    <string name="month_july">Июль</string>
+    <string name="month_august">Август</string>
+    <string name="month_september">Сентябрь</string>
+    <string name="month_october">Октябрь</string>
+    <string name="month_november">Ноябрь</string>
+    <string name="month_december">Декабрь</string>
+
+    <string-array name="months">
+        <item>@string/month_january</item>
+        <item>@string/month_february</item>
+        <item>@string/month_march</item>
+        <item>@string/month_april</item>
+        <item>@string/month_may</item>
+        <item>@string/month_june</item>
+        <item>@string/month_july</item>
+        <item>@string/month_august</item>
+        <item>@string/month_september</item>
+        <item>@string/month_october</item>
+        <item>@string/month_november</item>
+        <item>@string/month_december</item>
+    </string-array>
+
+    <string name="city_size">%s город</string>
+    <string name="city_size_small">Маленький</string>
+    <string name="city_size_medium">Средний</string>
+    <string name="city_size_big">Большой</string>
+
+    <string-array name="city_sizes">
+        <item>@string/city_size_small</item>
+        <item>@string/city_size_medium</item>
+        <item>@string/city_size_big</item>
+    </string-array>
+
+    <string name="cityweather_menu_filter">Фильтр списка</string>
+    <string name="cityweather_menu_settings">Настройки списка</string>
+
+    <string name="cityweather_filter_nochanges">Настройки фильтра не были применены</string>
+
+    <string name="settings_tab_cities">Города</string>
+    <string name="settings_tab_weather">Погода</string>
+
+    <string name="city_name">Название города</string>
+
+    <string name="settings_dialog_delete">Удалить</string>
+
+    <string name="settings_dialog_city_title_add">Добавление нового города</string>
+    <string name="settings_dialog_city_title_edit">Редактирование существующего города</string>
+    <string name="settings_dialog_city_name">@string/city_name</string>
+    <string name="settings_dialog_city_size">Размер города</string>
+
+    <string name="settings_dialog_weather_title_add">Добавление новой погоды</string>
+    <string name="settings_dialog_weather_title_edit">Редактирование существующей погоды</string>
+    <string name="settings_dialog_weather_name">@string/city_name</string>
+    <string name="settings_dialog_weather_temperature">Температура</string>
+    <string name="settings_dialog_weather_month">Месяц</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>
